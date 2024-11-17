@@ -1,0 +1,175 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #4267B2; 
+    color: white;
+    padding: 15px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Contenido principal */
+main {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+main h2 {
+    color: #4267B2;
+    margin-bottom: 15px;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    width: 150px; 
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 10px; 
+    object-fit: cover; 
+}
+
+.producto button {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.producto button:hover {
+    background-color: #365899;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+    background-color: #4267B2;
+    color: white;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+.social-media {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0;
+}
+
+.social-media h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.social-icon img:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    color: #25D366;
+    font-weight: bold;
+}
+
+.whatsapp-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #25D366;
+}
+
+.whatsapp-link img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    transition: transform 0.3s;
+}
+
+.whatsapp-link:hover img {
+    transform: scale(1.1);
+}
+
+.whatsapp-link:hover {
+    color: #128C7E;
+}

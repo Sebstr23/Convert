@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>CONVERT - Tienda de Zapatillas</title>
+    <style>
+      
+        .social-media {
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            margin: 20px 0;
+        }
+
+        .social-media h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+
+        .social-icon img {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.3s;
+        }
+
+        .social-icon img:hover {
+            transform: scale(1.1);
+        }
+
+        .whatsapp {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+            color: #25D366;
+            font-weight: bold;
+        }
+
+        .whatsapp-link {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            color: #25D366;
+        }
+
+        .whatsapp-link img {
+            width: 40px;
+            height: 40px;
+            margin-right: 5px;
+            transition: transform 0.3s;
+        }
+
+        .whatsapp-link:hover img {
+            transform: scale(1.1);
+        }
+
+        .whatsapp-link:hover {
+            color: #128C7E;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>
+            <img src="images/logo-removebg-preview.png" alt="Logo de CONVERT" style="height: 50px; vertical-align: middle;">
+            CONVERT
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="#caja1">Inicio</a></li>
+                <li><a href="#caja2">Productos</a></li>
+                <li><a href="#caja3">Recomendaciones</a></li>
+                <li><a href="#caja4">Contacto</a></li>    
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="caja1">
+            <h2>Bienvenido a CONVERT</h2>
+            <p>Encuentra las mejores zapatillas <a href="productos.html">aquí</a>.</p>
+        </div>
+        <div id="caja2">
+            <h2>Productos Disponibles</h2>
+            <div class="producto">
+                <h3>Zapatillas Sportwear</h3>
+                <p>Diseñadas para el uso diario, estas zapatillas de cuero combinan estilo y comodidad. Su entresuela de EVA proporciona amortiguación, mientras que la suela de caucho garantiza una excelente tracción y durabilidad.</p>
+                <img src="images/Zapatillas Sportwear-F1.jpg" alt="">
+                <p>Precio: s/70.00</p>
+                <button onclick="window.location.href='carrito.html'">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Rapidx-2</h3>
+                <p>Lleva tu rendimiento al siguiente nivel con las zapatillas Rapidx-2. Su diseño ligero y ergonómico está optimizado para actividades intensas. Fabricadas con materiales transpirables y suela de alta resistencia.</p>
+                <img src="images/imagen1-removebg-preview.png" alt="">
+                <p>Precio: s/85.00</p>
+                <button onclick="window.location.href='carrito.html'">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <h3>Convert Classic</h3>
+                <p>Un ícono de estilo y funcionalidad, las Convert Classic destacan por su diseño atemporal. Confeccionadas con materiales premium, ofrecen una comodidad superior y un ajuste perfecto. Ideales para cualquier ocasión, ya sea casual o formal.</p>
+                <img src="images/imagen2-removebg-preview.png" alt="">
+                <p>Precio: s/60.00</p>
+                <button onclick="window.location.href='carrito.html'">Agregar al carrito</button>
+            </div>
+        </div>
+
+        <div id="caja3">
+            <h3>Recomendaciones</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Talla</th>
+                        <th>Medida (cm)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>35</td><td>22.5 cm</td></tr>
+                    <tr><td>36</td><td>23 cm</td></tr>
+                    <tr><td>37</td><td>23.5 cm</td></tr>
+                    <tr><td>38</td><td>24 cm</td></tr>
+                    <tr><td>39</td><td>24.5 cm</td></tr>
+                    <tr><td>40</td><td>25 cm</td></tr>
+                    <tr><td>41</td><td>25.5 cm</td></tr>
+                    <tr><td>42</td><td>26 cm</td></tr>
+                </tbody>
+            </table>
+        </div>
+<div>
+        <section class="social-media">
+            <h3>ENCUÉNTRANOS EN</h3>
+            <div id="caja4">
+        </div>
+            <div class="icons">
+                <a href="https://www.instagram.com/convert.peru/" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/Convert.pe" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384053.png" alt="Facebook">
+                </a>
+                <a href="https://www.tiktok.com/@convert.peru" target="_blank" class="social-icon">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046126.png" alt="TikTok">
+                </a>
+            </div>
+            <div class="whatsapp">
+                <a href="https://api.whatsapp.com/send/?phone=51976388756&text&type=phone_number&app_absent=0" target="_blank" class="whatsapp-link">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+                    <span>+51 976398756</span>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
